@@ -20,7 +20,7 @@ const Chats = () => {
   useEffect(() => {
     const fetchChats = async () => {
       try {
-        let data = await fetch("http://localhost:3000/mongodb");
+        let data = await fetch("https://postcare-ai.vercel.app/mongodb");
         const res = await data.json();
         const len = await res.result.length;
         setchatLength(len);
