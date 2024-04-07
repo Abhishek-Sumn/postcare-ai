@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 
 const Chats = () => {
   const [fetchedChats, setfetchedChats] = useState();
-  const [messageId, setMessageId] = useState();
   const [chatLength, setchatLength] = useState();
+  const [messageId, setMessageId] = useState();
   const [messageObj, setmessageObj] = useState();
   const [messageText, setMessageText] = useState();
 
